@@ -1,0 +1,27 @@
+.word{ font-size: 20px;
+    color:black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+.contact-photo {
+width: 30%;
+height: 30%;
+}
+
+
+@media screen and (max-width: 479px){
+ 
+.contact-photo {
+width: 100%;
+}
+
+}
+

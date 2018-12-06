@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    width: 1;
+}
+
+#nonmenu {
+    color: white;
+    font-size: 200%;
+    height: 396px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.fa fa-arrow-right {
+    color: white;
+    font-size: 200%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#arrow {
+    color: white;
+    position: relative;
+    top: 9px;
+}
+
+.background {
+    z-index: -1;
+    padding-bottom: 1vw;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    bottom: 140px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    left: 380px
+}
+
+#arrow1 {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*media queries for 3/4 size*/
+
+@media screen and (max-width:830px) {
+    #nonmenu {
+        height: 487px;
+    }
+
+    .text {
+        left: 165px;
+        bottom: 130px;
+    }
+}
+
+/* media queries for app formation */
+
+@media screen and (max-width: 479px) {
+    #nonmenu {
+        height: 320px;
+    }
+
+    .text {
+        left: 65px;
+        bottom: 95px;
+    }
+}
