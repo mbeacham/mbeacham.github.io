@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+p {
+    font-size: 250%;
+    color: #B3D5E4;
+}
+
+.container-fluid {
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    bottom: 52px;
+    left: 85px;
+}
+
+.background {
+    height: 599px;
+    margin: 0;
+    z-index: -1;
+}

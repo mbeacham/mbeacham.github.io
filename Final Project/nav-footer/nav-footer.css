@@ -1,0 +1,112 @@
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5em;
+    color: #685A52;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-content{
+    position: relative;
+    margin: 0px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.navbar-content li{
+    display: inline-block;
+    padding: 10px 40px;
+    cursor: pointer;
+    position: relative; 
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-content li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar-content li a:hover{
+    color: gainsboro;
+}
+
+.navbar-content li ul{
+    display: none;
+    padding: 0px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    text-align: left;
+    border: 0 !important;
+    margin: 0px;
+}  
+
+.navbar-content li ul li {
+  background-color: #685A52;
+  color: white;
+  display: block;
+    margin: 0px;
+}
+
+.navbar-content li ul li a { 
+color: white;
+  white-space: nowrap;
+}
+
+.navbar-content li:hover ul {
+  display: block;
+}
+
+.navbar-content li ul li:hover {
+  background: #70807F;
+}
+
+
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color: #685A52;
+    color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1em;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+footer p i{
+    padding-left: 10px;
+}
+
+.navbar{
+    display: none;
+}
+
+.icon{
+    text-decoration: none;
+    color: white;
+}
+.icon:hover{
+    color: gainsboro;
+}
+@media only screen and (max-width: 479px) {
+    .navbar-content{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .nav-link{
+        color: #685A52;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
